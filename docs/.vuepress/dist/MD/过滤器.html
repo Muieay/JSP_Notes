@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>过滤器 | Study JSP</title>
+    <meta name="generator" content="VuePress 1.9.8">
+    
+    <meta name="description" content="JSP学习记录">
+    
+    <link rel="preload" href="/assets/css/0.styles.7b36eabc.css" as="style"><link rel="preload" href="/assets/js/app.f9be9967.js" as="script"><link rel="preload" href="/assets/js/2.980f3844.js" as="script"><link rel="preload" href="/assets/js/13.8c8a6a08.js" as="script"><link rel="prefetch" href="/assets/js/10.6f94e56b.js"><link rel="prefetch" href="/assets/js/11.51e09840.js"><link rel="prefetch" href="/assets/js/12.7ce7305c.js"><link rel="prefetch" href="/assets/js/14.d736d982.js"><link rel="prefetch" href="/assets/js/15.4eab3b1d.js"><link rel="prefetch" href="/assets/js/3.b155d814.js"><link rel="prefetch" href="/assets/js/4.47d9a46a.js"><link rel="prefetch" href="/assets/js/5.0bd184ef.js"><link rel="prefetch" href="/assets/js/6.4d41e4ec.js"><link rel="prefetch" href="/assets/js/7.4dd92c1d.js"><link rel="prefetch" href="/assets/js/8.6cbe93f8.js"><link rel="prefetch" href="/assets/js/9.75bedc03.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.7b36eabc.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/img/jsp.jpg" alt="Study JSP" class="logo"> <span class="site-name can-hide">Study JSP</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="https://github.com/Muieay" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHUb
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="https://github.com/Muieay" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHUb
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/Start.html" class="sidebar-link">JSP 简介</a></li><li><a href="/MD/JSP语法.html" class="sidebar-link">JSP 语法</a></li><li><a href="/MD/include包含.html" class="sidebar-link">include 包含</a></li><li><a href="/MD/域对象.html" class="sidebar-link">域对象</a></li><li><a href="/MD/EL.html" class="sidebar-link">EL</a></li><li><a href="/MD/JSTL.html" class="sidebar-link">JSTL</a></li><li><a href="/MD/JavaBean.html" class="sidebar-link">JavaBean</a></li><li><a href="/MD/过滤器.html" class="active sidebar-link">过滤器</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/MD/过滤器.html#filter接口" class="sidebar-link">Filter接口</a></li></ul></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="过滤器"><a href="#过滤器" class="header-anchor">#</a> 过滤器</h1> <p>JSP 和 Servlet 中的过滤器都是 Java 类。</p> <p>过滤器可以动态地拦截请求和响应，以变换或使用包含在请求或响应中的信息。</p> <p>过滤器可以实现以下目的：</p> <ul><li>在客户端的请求访问后端资源之前，拦截这些请求。</li> <li>在服务器的响应发送回客户端之前，处理这些响应。</li></ul> <h2 id="filter接口"><a href="#filter接口" class="header-anchor">#</a> Filter接口</h2> <p><mark>每一个过滤器对象都要直接或间接地实现Filter接口</mark></p> <p><strong>Filter接口的方法声明及说明：</strong></p> <table><thead><tr><th><strong>方法声明</strong></th> <th><strong>说明</strong></th></tr></thead> <tbody><tr><td>void init ( FilterConfig )</td> <td>过滤器初始化方法，该方法在过滤器初始化时调用。</td></tr> <tr><td>void doFilter ( ServletRequest , ServletResponse ,  ilterChain  )</td> <td>对请求进行过滤处理。</td></tr> <tr><td>void destroy ( )</td> <td>销毁方法，以便释放资源。</td></tr></tbody></table> <ul><li>FilterConfig
+<ul><li>接口由Servlet容器进行实现，主要用于<u>获取过滤器中的配置信息</u></li></ul></li> <li>FilterChain
+<ul><li>该方法用于将过滤后的请求<u>传递</u>给下一个过滤器，如果此过滤器已经是过滤器链中的最后一个过滤器，那么，请求将传送给目标资源</li></ul></li></ul> <div class="language-xml extra-class"><pre class="language-xml"><code><span class="token comment">&lt;!-- 过滤器声明 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>filter</span><span class="token punctuation">&gt;</span></span>
+	<span class="token comment">&lt;!-- 过滤器的名称 --&gt;</span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>filter-name</span><span class="token punctuation">&gt;</span></span>CountFilter<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>filter-name</span><span class="token punctuation">&gt;</span></span>
+	<span class="token comment">&lt;!-- 过滤器的完整类名 --&gt;</span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>filter-class</span><span class="token punctuation">&gt;</span></span>com.pjb.filter.CountFilter<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>filter-class</span><span class="token punctuation">&gt;</span></span>
+	<span class="token comment">&lt;!-- 设置初始化参数 --&gt;</span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>init-param</span><span class="token punctuation">&gt;</span></span>
+		<span class="token comment">&lt;!-- 参数名 --&gt;</span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>param-name</span><span class="token punctuation">&gt;</span></span>count<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>param-name</span><span class="token punctuation">&gt;</span></span>
+		<span class="token comment">&lt;!-- 参数值 --&gt;</span>
+		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>param-value</span><span class="token punctuation">&gt;</span></span>5000<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>param-value</span><span class="token punctuation">&gt;</span></span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>init-param</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>filter</span><span class="token punctuation">&gt;</span></span>
+ 
+<span class="token comment">&lt;!-- 过滤器映射 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>filter-mapping</span><span class="token punctuation">&gt;</span></span>
+	<span class="token comment">&lt;!-- 过滤器名称 --&gt;</span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>filter-name</span><span class="token punctuation">&gt;</span></span>CountFilter<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>filter-name</span><span class="token punctuation">&gt;</span></span>
+	<span class="token comment">&lt;!-- 过滤器URL映射 --&gt;</span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>url-pattern</span><span class="token punctuation">&gt;</span></span>/index.jsp<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>url-pattern</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>filter-mapping</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p><a href="https://blog.csdn.net/pan_junbiao/article/details/88353292" target="_blank" rel="noopener noreferrer">学习更多<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/MD/JavaBean.html" class="prev">
+        JavaBean
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.f9be9967.js" defer></script><script src="/assets/js/2.980f3844.js" defer></script><script src="/assets/js/13.8c8a6a08.js" defer></script>
+  </body>
+</html>
