@@ -10,7 +10,7 @@ module.exports = {
 				link: '/'
 			},
 			{
-				text: 'GitHUb',
+				text: 'GitHub',
 				link: 'https://github.com/Muieay/JSP_Notes'
 			},
 		],
