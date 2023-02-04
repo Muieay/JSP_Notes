@@ -11,7 +11,7 @@ module.exports = {
 			},
 			{
 				text: 'GitHUb',
-				link: 'https://github.com/Muieay'
+				link: 'https://github.com/Muieay/JSP_Notes'
 			},
 		],
 		sidebar: [
