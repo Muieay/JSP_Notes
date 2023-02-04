@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>域对象 | Study JSP</title>
+    <meta name="generator" content="VuePress 1.9.8">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
+    <meta name="description" content="JSP学习记录">
+    
+    <link rel="preload" href="/assets/css/0.styles.d6ad21ed.css" as="style"><link rel="preload" href="/assets/js/app.043f8060.js" as="script"><link rel="preload" href="/assets/js/2.980f3844.js" as="script"><link rel="preload" href="/assets/js/12.7ce7305c.js" as="script"><link rel="prefetch" href="/assets/js/10.cce0432f.js"><link rel="prefetch" href="/assets/js/11.51e09840.js"><link rel="prefetch" href="/assets/js/13.e8b936f7.js"><link rel="prefetch" href="/assets/js/14.d736d982.js"><link rel="prefetch" href="/assets/js/15.e864fd15.js"><link rel="prefetch" href="/assets/js/3.b155d814.js"><link rel="prefetch" href="/assets/js/4.b7731bfc.js"><link rel="prefetch" href="/assets/js/5.409bac28.js"><link rel="prefetch" href="/assets/js/6.4d41e4ec.js"><link rel="prefetch" href="/assets/js/7.4dd92c1d.js"><link rel="prefetch" href="/assets/js/8.6cbe93f8.js"><link rel="prefetch" href="/assets/js/9.fda7d502.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.d6ad21ed.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/img/jsp.jpg" alt="Study JSP" class="logo"> <span class="site-name can-hide">Study JSP</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="https://github.com/Muieay" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHUb
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="https://github.com/Muieay" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHUb
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/Start.html" class="sidebar-link">JSP 简介</a></li><li><a href="/MD/JSP语法.html" class="sidebar-link">JSP 语法</a></li><li><a href="/MD/include包含.html" class="sidebar-link">include 包含</a></li><li><a href="/MD/域对象.html" class="active sidebar-link">域对象</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/MD/EL.html" class="sidebar-link">EL</a></li><li><a href="/MD/JSTL.html" class="sidebar-link">JSTL</a></li><li><a href="/MD/JavaBean.html" class="sidebar-link">JavaBean</a></li><li><a href="/MD/过滤器.html" class="sidebar-link">过滤器</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h3 id="四大域对象"><a href="#四大域对象" class="header-anchor">#</a> 四大域对象</h3> <ul><li>page作用域
+<ul><li>在当前页面有效，跳转后无效</li></ul></li> <li>request作用域
+<ul><li>在一次请求中有效，服务端跳转有效，客户端跳转失效</li></ul></li> <li>session作用域
+<ul><li>在一次会话中有，服务端和客户端跳转有效</li></ul></li> <li>application作用域
+<ul><li>在整个应用中有效</li></ul></li></ul> <div class="language-jsp extra-class"><pre class="language-text"><code>&lt;%
+    pageContext.setAttribute(&quot;a1&quot;,&quot;page&quot;);
+    request.setAttribute(&quot;a2&quot;,&quot;page&quot;);
+    session.setAttribute(&quot;a3&quot;,&quot;session&quot;);
+    application.setAttribute(&quot;a4&quot;,&quot;application&quot;);
+%&gt;
+</code></pre></div><h3 id="简单理解服务端和客户端跳转"><a href="#简单理解服务端和客户端跳转" class="header-anchor">#</a> 简单理解服务端和客户端跳转：</h3> <p>**服务器端跳转：**又称为内部跳转，当客户端向服务器发送一个请求，请求当前资源时，这个资源在服务器内部跳转到另一个资源，再向客户端发送一个响应（即客户端只产生了一次请求）。浏览器地址栏中的URL不会改变。</p> <p>**客户端跳转：**又称为外部跳转，当客户端向服务器发送一个请求，请求当前资源时，这个资源向客户端发送一个去请求其他地址的回应。客户端再根据这个地址去进行下一次请求（即客户端产生了两次请求）。浏览器地址栏中的URL为请求地址。</p> <h5 id="服务器跳转"><a href="#服务器跳转" class="header-anchor">#</a> 服务器跳转</h5> <ul><li><code>&lt;jsp:forward page=&quot;&quot;&gt;</code></li> <li>pageContext.forward();</li> <li>request.getRequestDispatcher(url).forward(request, response);</li> <li>服务器端跳转“/”代表站点根路径</li></ul> <h5 id="客户端跳转"><a href="#客户端跳转" class="header-anchor">#</a> 客户端跳转</h5> <ul><li><code>&lt;a href=&quot;&quot;&gt;\&lt;/a&gt;</code></li> <li><code>&lt;mate http-equiv=&quot;refresh&quot;, content=&quot;sec;url&quot;/&gt;</code></li> <li>表单提交</li> <li>...</li></ul></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/MD/include包含.html" class="prev">
+        include 包含
+      </a></span> <span class="next"><a href="/MD/EL.html">
+        EL
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.043f8060.js" defer></script><script src="/assets/js/2.980f3844.js" defer></script><script src="/assets/js/12.7ce7305c.js" defer></script>
+  </body>
+</html>
